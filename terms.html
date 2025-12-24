@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms of Service — Fyndr</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand">Fyndr</div>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="delete-account.html">Delete Account</a>
+      <a href="support.html">Support</a>
+    </div>
+
+    <h1>Terms of Service</h1>
+    <p class="small">Last updated: <span id="d"></span></p>
+
+    <div class="card">
+      <h2>1. Using Fyndr</h2>
+      <p>By using Fyndr, you agree to follow these terms and any posted guidelines.</p>
+
+      <h2>2. Accounts</h2>
+      <p>You’re responsible for activity under your account and for keeping your login credentials secure.</p>
+
+      <h2>3. Community rules</h2>
+      <ul>
+        <li>No harassment, hate, threats, or illegal content</li>
+        <li>No spam, scams, or impersonation</li>
+        <li>Respect event rules and other users</li>
+      </ul>
+
+      <h2>4. Events</h2>
+      <p>Event organizers are responsible for event details, attendance policies, and compliance with local laws.</p>
+
+      <h2>5. Content</h2>
+      <p>You keep ownership of content you submit, but you grant Fyndr a license to display it to provide the service.</p>
+
+      <h2>6. Termination</h2>
+      <p>We may suspend or terminate accounts for policy violations or to protect the service.</p>
+
+      <h2>7. Contact</h2>
+      <p>Support: <b>muhy06@gmail.com</b></p>
+    </div>
+
+    <div class="footer">© <span id="y"></span> Fyndr.</div>
+  </div>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    document.getElementById("d").textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
